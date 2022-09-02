@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px auto;
+    width: 400px;
+    color: #5e0c0ce7;
+    font-weight: bold;
+    border-color: #5e0c0ce7;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffffe7;
+}
+
+label {
+    color: #000000;
+    font-weight: normal;
+}
+
+label h3 {
+    color: #5e0c0ce7;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    background: #9d0000e7;
+    padding: 4px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#edades {
+    width: 200px;
+    margin: 5px 90px;
+    border-color: #5e0c0ce7;
+    border-width: 1px;
+}
+
+.boton:hover {
+    background: #ce1504;
+}

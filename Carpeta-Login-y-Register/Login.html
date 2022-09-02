@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Carpeta-Login-y-Register/icons/css/all.min.css">
+    <link rel="icon" type="image/" href="../img/Logo/icono.jpg">
+    <link rel="stylesheet" href="css/loguin.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <article>
+            <div class="tt">
+                <a href="../0CWS-index.html">INICIO</a>
+            </div>
+        </article>
+    </header>
+
+    <form class="formulario" action="../dashoboard/dashAdmin.html">
+        <h1>Login</h1>
+        <div class="contenedor">
+
+            <div class="imput-contenedor">
+                <i class="fas fa-envelope"></i>
+                Correo Electronico: <input type="email" name="email" required>
+            </div>
+
+            <div class="imput-contenedor">
+                <i class="fas fa-key"></i>
+                Contraseña: <input type="Contraseña" placeholder="Contraseña">
+            </div>
+
+            <div class="imput-contenedor">
+                <i class="fas fa-user"></i>
+                Cuenta: <select type="cuenta" id="cuenta" name="cuenta" class="id-1">
+                    <option value="0">seleccione...</option>
+                    <option value="1">cuenta personal(cliente)</option>
+                    <option value="2">cuenta administrador</option>
+                    <option value="3">cuenta barbero</option>
+                </select>
+            </div>
+
+            <div class="Error-1">
+                <button type="submit" value="Ingresar" class="button_1"
+                    href="../Capital Web Site/dashoboard/dashAdmin.html">Login</button>
+            </div>
+            <p>Al registrarte, acepta nuestras condiciones de uso y politicas de privacidad.</p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="Register.html"> Registrate</a></p>
+        </div>
+    </form>
+
+</body>
+
+</html>
